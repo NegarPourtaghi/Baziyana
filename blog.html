@@ -1,0 +1,508 @@
+ <html>
+
+ <head>
+   <title>Baziyana</title>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+   <link rel="stylesheet" href="assets/css/blog.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css"
+     integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg=="
+     crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css"
+     integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg=="
+     crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"
+     integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw=="
+     crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/css/swiper.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/css/swiper.min.css">
+   <link rel="stylesheet" href="css\swiper.min.css">
+   <link href="https://fonts.googleapis.com/css?family=Playfair+Display|Roboto:400,400i,700&display=swap">
+   <link rel="stylesheet" href="path/to/fontawesome.min.css">
+
+
+
+ </head>
+
+
+
+ <body>
+  <hr class=" multi-header" style="width: 100%; height:6px;" id="section1">
+
+
+   <div class="navbarcollapse">
+
+     <nav class="navbar navbar-default" role="navigation">
+
+       <div class="navbar-header">
+         <img class=navbarlogo src="assets/images/logo.png">
+
+         <button type="button" class="navbar-toggle x collapsed" data-bs-toggle="collapse"
+           data-bs-target="#navbar-collapse-x">
+           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-list"
+             viewBox="0 0 16 16">
+             <path fill-rule="evenodd"
+               d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+           </svg>
+         </button>
+       </div>
+
+       <div class="collapse navbar-collapse" id="navbar-collapse-x">
+        <ul class="navcontent1">
+          <li class="nav-items1">
+           
+            <a href="index.html" class="nav-link1">صفحه اصلی</a>
+
+
+          </li>
+          <li class="nav-items1">
+           
+            <a href="blog.html" class="nav-link1"> بلاگ</a>
+
+
+          </li>
+          <li class="nav-items1">
+           
+            <a href="#" class="nav-link1"> خدمات</a>
+
+
+          </li>
+
+          <li class="nav-items1">
+          
+            <a href="#" class="nav-link1"> درباره ما </a>
+
+
+          </li>
+
+          <li class="nav-items1">
+          
+            <a href="#" class="nav-link1"> تماس با ما </a>
+
+
+          </li>
+        </ul>
+      
+     </nav>
+
+
+   </div>
+
+
+
+
+
+
+
+
+
+   <div class="row">
+     <div class="col-2">
+       <div class="sidenavbar" id="wrapper">
+         <div class="sidebar">
+           <div class="logo">
+             <img class="logosidebar" src="assets/images/logo.png" id="logosidebar1">
+           </div>
+           <div class="sideheader">
+             <div class="sidebtn" id="btnr">
+               <a class="btn btn-default " id="menu-toggle">
+                 <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor"
+                   class="bi bi-list humberger" viewBox="0 0 16 16">
+                   <path fill-rule="evenodd"
+                     d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+                 </svg>
+               </a>
+
+             </div>
+
+
+             <div class="search-container">
+               <span class="btn btn-primary btn1"> <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                   fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                   <path
+                     d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                 </svg></span>
+               <input placeholder='Search...' class='js-search' type="text">
+             </div>
+           </div>
+           <ul class="navcontent">
+             <li class="nav-items">
+               <span class="icons">
+                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                   class="bi bi-house-door" viewBox="0 0 16 16">
+                   <path
+                     d="M8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4.5a.5.5 0 0 0 .5-.5v-4h2v4a.5.5 0 0 0 .5.5H14a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146zM2.5 14V7.707l5.5-5.5 5.5 5.5V14H10v-4a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v4H2.5z" />
+                 </svg>
+               </span>
+               <a href="index.html" class="nav-link">صفحه اصلی</a>
+
+
+             </li>
+
+
+
+             <li class="nav-items">
+               <span class="icons">
+                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                   class="bi bi-clipboard" viewBox="0 0 16 16">
+                   <path
+                     d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z" />
+                   <path
+                     d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z" />
+                 </svg>
+               </span>
+               <a href="blog.html" class="nav-link"> بلاگ</a>
+
+
+             </li>
+
+
+
+
+             <li class="nav-items">
+               <span class="icons">
+                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-gear"
+                   viewBox="0 0 16 16">
+                   <path
+                     d="M8 4.754a3.246 3.246 0 1 0 0 6.492 3.246 3.246 0 0 0 0-6.492zM5.754 8a2.246 2.246 0 1 1 4.492 0 2.246 2.246 0 0 1-4.492 0z" />
+                   <path
+                     d="M9.796 1.343c-.527-1.79-3.065-1.79-3.592 0l-.094.319a.873.873 0 0 1-1.255.52l-.292-.16c-1.64-.892-3.433.902-2.54 2.541l.159.292a.873.873 0 0 1-.52 1.255l-.319.094c-1.79.527-1.79 3.065 0 3.592l.319.094a.873.873 0 0 1 .52 1.255l-.16.292c-.892 1.64.901 3.434 2.541 2.54l.292-.159a.873.873 0 0 1 1.255.52l.094.319c.527 1.79 3.065 1.79 3.592 0l.094-.319a.873.873 0 0 1 1.255-.52l.292.16c1.64.893 3.434-.902 2.54-2.541l-.159-.292a.873.873 0 0 1 .52-1.255l.319-.094c1.79-.527 1.79-3.065 0-3.592l-.319-.094a.873.873 0 0 1-.52-1.255l.16-.292c.893-1.64-.902-3.433-2.541-2.54l-.292.159a.873.873 0 0 1-1.255-.52l-.094-.319zm-2.633.283c.246-.835 1.428-.835 1.674 0l.094.319a1.873 1.873 0 0 0 2.693 1.115l.291-.16c.764-.415 1.6.42 1.184 1.185l-.159.292a1.873 1.873 0 0 0 1.116 2.692l.318.094c.835.246.835 1.428 0 1.674l-.319.094a1.873 1.873 0 0 0-1.115 2.693l.16.291c.415.764-.42 1.6-1.185 1.184l-.291-.159a1.873 1.873 0 0 0-2.693 1.116l-.094.318c-.246.835-1.428.835-1.674 0l-.094-.319a1.873 1.873 0 0 0-2.692-1.115l-.292.16c-.764.415-1.6-.42-1.184-1.185l.159-.291A1.873 1.873 0 0 0 1.945 8.93l-.319-.094c-.835-.246-.835-1.428 0-1.674l.319-.094A1.873 1.873 0 0 0 3.06 4.377l-.16-.292c-.415-.764.42-1.6 1.185-1.184l.292.159a1.873 1.873 0 0 0 2.692-1.115l.094-.319z" />
+                 </svg>
+               </span>
+               <a href="#" class="nav-link"> خدمات</a>
+
+
+             </li>
+
+
+
+
+
+             <li class="nav-items">
+               <span class="icons">
+                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-person"
+                   viewBox="0 0 16 16">
+                   <path
+                     d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z" />
+                 </svg>
+               </span>
+               <a href="#" class="nav-link"> درباره ما </a>
+
+
+             </li>
+
+
+
+
+
+             <li class="nav-items">
+               <span class="icons">
+                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                   class="bi bi-telephone" viewBox="0 0 16 16">
+                   <path
+                     d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
+                 </svg>
+               </span>
+               <a href="#" class="nav-link"> تماس با ما </a>
+
+
+             </li>
+           </ul>
+           <div class="footer mobile">
+             <div class="myfooter">
+               <div class="bartar">
+                 <p>
+                   <button class="btn btn-primary btnf btnf1" type="button" data-bs-toggle="collapse"
+                     data-bs-target="#footer1" aria-expanded="false" aria-controls="collapseExample">
+
+                     مقاله های برتر <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                       class="bi bi-chevron-down chevron1" viewBox="0 0 16 16">
+                       <path fill-rule="evenodd"
+                         d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
+                     </svg> </button>
+
+                   <hr class="linefooter">
+
+                 </p>
+                 <div class="collapse mns" id="footer1">
+                   <ul class="items">
+                     <li class="item"> <a href="#" class="item-link"> بهترین بازی ها </a></li>
+                     <li class="item"> <a href="#" class="item-link"> بهترین بازی در سال 2020 </a></li>
+                     <li class="item"> <a href="#" class="item-link"> گیمیفیکشن </a></li>
+                     <li class="item"> <a href="#" class="item-link"> بهترین طراحی </a></li>
+
+                   </ul>
+                 </div>
+               </div>
+
+
+
+
+
+               <div class="bartar">
+                 <p>
+                   <button class="btn btn-primary btnf btnf2" type="button" data-bs-toggle="collapse"
+                     data-bs-target="#footer2" aria-expanded="false" aria-controls="collapseExample">
+
+                     خدمات <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                       class="bi bi-chevron-down chevron2" viewBox="0 0 16 16">
+                       <path fill-rule="evenodd"
+                         d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
+                     </svg> </button>
+
+                   <hr class="linefooter">
+
+
+                 </p>
+                 <div class="collapse" id="footer2">
+                   <ul class="items">
+                     <li class="item"> <a href="#" class="item-link"> آموزش بازی سازی </a></li>
+                     <li class="item"> <a href="#" class="item-link"> آموزش انیمیشن سازی </a></li>
+                     <li class="item"> <a href="#" class="item-link"> تولد گیمیفیکشن </a></li>
+                     <li class="item"> <a href="#" class="item-link"> آموزش نرم افزار </a></li>
+
+                   </ul>
+                 </div>
+               </div>
+
+
+
+
+
+               <div class="bartar">
+                 <p>
+                   <button class="btn btn-primary btnf btnf3" type="button" data-bs-toggle="collapse"
+                     data-bs-target="#footer3" aria-expanded="false" aria-controls="collapseExample">
+
+
+
+                     دسترسی سریع <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                       class="bi bi-chevron-down chevron3" viewBox="0 0 16 16">
+                       <path fill-rule="evenodd"
+                         d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
+                     </svg>
+
+
+                   </button>
+                   <hr class="linefooter">
+
+
+
+                 </p>
+                 <div class="collapse" id="footer3">
+                   <ul class="items">
+                     <li class="item"> <a href="#" class="item-link"> صفحه اصلی </a></li>
+                     <li class="item"> <a href="#" class="item-link"> بلاگ </a></li>
+                     <li class="item"> <a href="#" class="item-link"> تیم بازیانا </a></li>
+                     <li class="item"> <a href="#" class="item-link"> در باره ی ما </a></li>
+
+                   </ul>
+                 </div>
+               </div>
+
+             </div>
+
+
+             <div class="socialmedia">
+               <h1 class="followus">شبکه های اجتماعی</h1>
+               <div class="socialicons">
+                 <div class="facebook icn">
+                  <a href="#"> <svg class="icons" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                    <path
+                      d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z" />
+                  </svg></a>
+                 </div>
+                 <div class="linkdin icn">
+                <a href="#"> <svg class="icons" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                  <path
+                    d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
+                </svg> </a>  
+                </div>
+                 <div class="linkdin icn">
+                 <a href="#">  <svg class="icons" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                  <path
+                    d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z" />
+                </svg></a>
+                 </div>
+                 <div class="instagram icn">
+                  <a href="#">
+                    <svg class="icons" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                      <path
+                        d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" />
+                    </svg>
+                  </a>
+                 </div>
+
+                 <div class="telegram icn">
+                  <a href="#"> <svg class="icons" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
+                    <path
+                      d="M248,8C111.033,8,0,119.033,0,256S111.033,504,248,504,496,392.967,496,256,384.967,8,248,8ZM362.952,176.66c-3.732,39.215-19.881,134.378-28.1,178.3-3.476,18.584-10.322,24.816-16.948,25.425-14.4,1.326-25.338-9.517-39.287-18.661-21.827-14.308-34.158-23.215-55.346-37.177-24.485-16.135-8.612-25,5.342-39.5,3.652-3.793,67.107-61.51,68.335-66.746.153-.655.3-3.1-1.154-4.384s-3.59-.849-5.135-.5q-3.283.746-104.608,69.142-14.845,10.194-26.894,9.934c-8.855-.191-25.888-5.006-38.551-9.123-15.531-5.048-27.875-7.717-26.8-16.291q.84-6.7,18.45-13.7,108.446-47.248,144.628-62.3c68.872-28.647,83.183-33.623,92.511-33.789,2.052-.034,6.639.474,9.61,2.885a10.452,10.452,0,0,1,3.53,6.716A43.765,43.765,0,0,1,362.952,176.66Z" />
+                  </svg></a>
+                 </div>
+               </div>
+             </div>
+           </div>
+         </div>
+       </div>
+     </div>
+
+     <div class="col-10">
+       <div class="container c2">
+         <div class="gameimage">
+           <div class="color">
+             <div class="textimg">
+               <h1 class="firsttext">
+                 معرفی بازی Horizon Zero Down
+               </h1>
+               <hr class="textline">
+               <img class="image1" src="assets/images/ali.webp">
+               <div class="name">
+                 علی اسمعیلی
+               </div>
+               <div class="date">
+                 ۱۳۷۸/۰۱/۲۹ </div>
+             </div>
+           </div>
+         </div>
+
+         <div class="text2">
+           <div class="textheader">
+             <h1 class="tt1">
+               معرفی بازی Horizon Zero Down
+
+             </h1>
+             <div class="icons1">
+               <div class="nameicons">
+                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#226b5e" class="bi bi-person"
+                   viewBox="0 0 16 16">
+                   <path
+                     d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z" />
+                 </svg>
+                 علی اسمعیلی
+               </div>
+
+               <div class="nameicons">
+                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#226b5e" class="bi bi-calendar2"
+                   viewBox="0 0 16 16">
+                   <path
+                     d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM2 2a1 1 0 0 0-1 1v11a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V3a1 1 0 0 0-1-1H2z" />
+                   <path d="M2.5 4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5H3a.5.5 0 0 1-.5-.5V4z" />
+                 </svg>
+                 ۲۹ تیر ۱۳۹۹
+               </div>
+
+
+               <div class="nameicons">
+                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#226b5e" class="bi bi-heart"
+                   viewBox="0 0 16 16">
+                   <path
+                     d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z" />
+                 </svg>
+                 ۱۰
+               </div>
+             </div>
+           </div>
+           <p class="text3">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک
+             است.لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و
+             متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای
+             متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت
+             چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و
+             کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده
+             شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص
+             طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد. در این صورت می توان امید داشت که تمام و دشواری موجود در
+             ارائه راهکارها و شرایط سخت تایپ به پایان رسد وزمان مورد نیاز شامل حروفچینی دستاوردهای اصلی و جوابگوی سوالات
+             پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.</p>
+
+         </div>
+
+
+
+
+
+
+
+
+
+         <div class="opinion">
+           <h1 class="tp">
+             متن دیدگاه
+           </h1>
+           <div class="opinion1">
+             <input class="inputext" type="text" placeholder="دیدگاه خودرا بنویسید...">
+           </div>
+           <div class="specifications">
+             <div class="sname">
+               <h3 class="namee">نام*</h3>
+               <input class="nameinput" type="text">
+             </div>
+             <div class="sname">
+               <h3 class="namee">ایمیل*</h3>
+               <input class="nameinput" type="text">
+             </div>
+           </div>
+
+           <a href="#" class="btn btn-warning btn4">نمایش دیدگاه ها</a>
+           <div class="btnend">
+             <a href="#" class="btn btn-warning btn5"> ارسال دیدگاه</a>
+
+           </div>
+         </div>
+
+
+
+
+
+
+
+
+
+
+
+       </div>
+
+     </div>
+
+
+   </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js" crossorigin="anonymous"
+     referrerpolicy="no-referrer"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" crossorigin="anonymous"
+     referrerpolicy="no-referrer"></script>
+   <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" crossorigin="anonymous"
+     referrerpolicy="no-referrer"></script>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+     crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.js" crossorigin="anonymous"
+     referrerpolicy="no-referrer"></script>
+
+   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+     integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous">
+   </script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+     integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous">
+   </script>
+
+
+   <script src="assets/js/script.js"></script>
+ </body>
+
+
+ </html>
